@@ -27,3 +27,16 @@ github_username: MrArgote
 # Build settings
 markdown: kramdown
 theme: minima
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

@@ -1,7 +1,6 @@
 ---
 title: Slack
 nav-icon: /assets/slack-symbol.svg
-layout: default
 ---
 
 Have you joined Slack?
