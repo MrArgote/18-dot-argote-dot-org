@@ -2,9 +2,11 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px ridge $grey-color-dark;
+    border-bottom: 1px groove $grey-color-light;
     min-height: 56px;
+
+    background: linear-gradient(#EAC7A6,#F5E6CE);
 
     // Positioning context for the mobile navigation icon
     position: relative;
