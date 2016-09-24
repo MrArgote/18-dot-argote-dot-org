@@ -24,6 +24,8 @@ url: "http://18.argote.org" # the base hostname & protocol for your site
 twitter_username: MrArgote
 github_username: MrArgote
 
+permalink: pretty
+
 # Build settings
 markdown: kramdown
 theme: minima
