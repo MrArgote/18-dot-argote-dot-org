@@ -1,5 +1,5 @@
 ---
-title: 07 — Spectacles
+title: 08 — Spectacles
 computer-lab: true
 students:
   ranking:
