@@ -1,4 +1,6 @@
 ---
+title: 07 — Spectacles
+computer-lab: true
 students:
   ranking:
     01: false
