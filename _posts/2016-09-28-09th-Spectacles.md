@@ -6,11 +6,11 @@ students:
     03: false
     04: false
     05: false
-    06: false
+    06: 09
     07: false
-    08: false
+    08: 04
     09: false
-    10: false
+    10: 08
     11: false
     12: false
     13: false
@@ -20,11 +20,25 @@ students:
     17: false
     18: false
     19: false
-    20: false
+    20: 07
     21: false
     22: false
     23: false
     24: false
+    25: false
+    26: false
+    27: false
+    28: false
+    29: 06
+    30: 05
+    31: 01
+    32: 03
+    33: 02
+    34: false
+    35: false
+    36: false
+    38: false
+    39: false
 ---
 
 
