@@ -12,9 +12,9 @@ students:
     09: false
     10: 08
     11: 11
-    12: false
-    13: false
-    14: false
+    12: 15
+    13: 16
+    14: 17
     15: 10
     16: false
     17: false
