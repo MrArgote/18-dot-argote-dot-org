@@ -11,21 +11,21 @@ students:
     08: 04
     09: false
     10: 08
-    11: false
+    11: 11
     12: false
     13: false
     14: false
-    15: false
+    15: 10
     16: false
     17: false
-    18: false
+    18: 12
     19: false
     20: 07
     21: false
     22: false
     23: false
-    24: false
-    25: false
+    24: 14
+    25: 13
     26: false
     27: false
     28: false
