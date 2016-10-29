@@ -30,6 +30,8 @@ permalink: pretty
 markdown: kramdown
 theme: minima
 
+port: 4018
+
 future: true
 
 defaults:
