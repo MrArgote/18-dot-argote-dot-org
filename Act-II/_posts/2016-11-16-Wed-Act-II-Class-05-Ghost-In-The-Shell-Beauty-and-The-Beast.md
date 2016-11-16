@@ -1,9 +1,11 @@
 ---
-title: Act II — Class 05 — Trailers
+title: Act II — Class 07 — Trailers
 computer-lab: false
 ---
 
 ## Class Notes
+
+Invisible
 
 ## Ghost In The Shell
 
