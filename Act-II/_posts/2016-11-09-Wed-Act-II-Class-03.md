@@ -1,5 +1,5 @@
 ---
-title: Act II — Class 03 — Trump Favorite To Become Next US President
+title: Act II — Class 3 — Trump Favorite To Become Next US President
 ---
 
 ## U.S. 2016 Presidential Election

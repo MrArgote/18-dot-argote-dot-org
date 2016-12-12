@@ -1,5 +1,5 @@
 ---
-title: Act II — Class 07 — Trailers
+title: Act II — Class 5 — Trailers
 computer-lab: false
 ---
 
