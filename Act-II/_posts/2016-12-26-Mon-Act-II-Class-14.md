@@ -3,6 +3,8 @@ title: Act II — Class 14
 computer-lab: true
 ---
 
+Ignorance Survey
+
 
 - Newspaper Articles
   - [TaiwanNews --- Taiwan is third most ignorant country: survey](http://www.taiwannews.com.tw/en/news/3057146)
