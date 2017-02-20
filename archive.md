@@ -1,9 +1,10 @@
 ---
-layout: default
+title: Archive
 ---
 
+
 <style>
-  .post-list > li {
+.post-list > li {
     display: inline-block;
     border: dashed 0.1em #555;
     border-radius: 1.5em;
@@ -15,26 +16,29 @@ layout: default
   }
 </style>
 
+
+
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Fall of 2016 Posts</h1>
 
   <ul class="post-list">
-    {% assign posts = site.posts | where:"categories","Spring" %}
+    {% assign posts = site.posts | where:"categories","Fall" %}
     {% for post in posts %}
-    <li{% if post.computer-lab == true %} class="computer-lab"{% endif %}>
+      <li{% if post.computer-lab == true %} class="computer-lab"{% endif %}>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
-        <span>
+        <p>
           {{ post.excerpt }}
-        </span>
+        </p>
       </li>
     {% endfor %}
   </ul>
 
-  <p>take a look at <a href="{{ "/archive/" | prepend: site.baseurl }}">old posts</a></p>
+  <p>take a look at <a href="{{ "/" | prepend: site.baseurl }}">current posts</a></p>
 
 </div>
+
