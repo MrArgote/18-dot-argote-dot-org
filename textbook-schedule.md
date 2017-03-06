@@ -1,6 +1,6 @@
 ---
 title: Textbook Plan
-header-nav: true
+header-nav: false
 week_numbers:
   01: "Section 1, be and have"
   02: "Section 2, present tenses"
