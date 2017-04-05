@@ -17,6 +17,8 @@
 
     {% include footer.html %}
 
+    <script src="{{ "/assets/js/responsive-social-media-embeds.js" | prepend: site.baseurl }}"></script>
+
     {% if jekyll.environment == 'production' %}
       {% include google-analytics.html %}
     {% endif %}
