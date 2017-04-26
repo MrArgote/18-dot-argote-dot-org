@@ -1,6 +1,6 @@
 ---
-title: II-6 — Snotty Smartphone User
-computer-lab: false
+title: II-7 — Snotty Smartphone User
+computer-lab: true
 ---
 
 ## Snotty Smartphone User

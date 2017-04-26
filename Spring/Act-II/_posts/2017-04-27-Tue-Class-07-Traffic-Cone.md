@@ -1,6 +1,6 @@
 ---
-title: II-6 — Spinning Traffic Cone
-computer-lab: false
+title: II-7 — Spinning Traffic Cone
+computer-lab: true
 ---
 
 ## Traffic Cone

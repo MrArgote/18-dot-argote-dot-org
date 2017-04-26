@@ -1,6 +1,6 @@
 ---
-title: II-6 — Is That Obama Singing Shape Of You?
-computer-lab: false
+title: II-7 — Is That Obama Singing Shape Of You?
+computer-lab: true
 ---
 
 

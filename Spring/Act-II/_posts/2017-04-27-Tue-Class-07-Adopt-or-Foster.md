@@ -1,6 +1,6 @@
 ---
-title: II-6 — Mom and Son Foster a Puppy
-computer-lab: false
+title: II-7 — Mom and Son Foster a Puppy
+computer-lab: true
 ---
 
 ## Adopt Foster Dog
