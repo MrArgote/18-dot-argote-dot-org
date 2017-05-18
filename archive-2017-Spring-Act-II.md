@@ -16,10 +16,10 @@ layout: default
 </style>
 
 <div class="home">
-  <h1 class="page-heading">Act III Posts (Mid-May to June of 2017, Spring Semester</h1>
+  <h1 class="page-heading">Act II Posts (April to Mid-May 2017, Spring Semester)</h1>
 
   <ul class="post-list">
-    {% assign posts = site.posts | where:"categories","Act-III" | where:"categories","Spring" %}
+    {% assign posts = site.posts | where:"categories","Act-II" | where:"categories","Spring" %}
     {% for post in posts %}
       {% assign currentdate = post.date | date: "%a, %B %d, %Y" %}
       {% if currentdate != date %}
@@ -43,10 +43,10 @@ layout: default
   </ul>
 
 
-  <p>take a look at <a href="{{ "/archive-2017-Spring-Act-II/" | prepend: site.baseurl }}">Posts from Act II of this semester (April to mid-May 2017)</a></p>
-  <p>take a look at <a href="{{ "/archive-2017-Spring-Act-I/" | prepend: site.baseurl }}">Posts from Act I of this semester (February and March 2017)</a></p>
+  <p>take a look at <a href="{{ "/" | prepend: site.baseurl }}">current posts</a></p>
 
+  <p>take a look at <a href="{{ "/archive-2017-Spring-Act-I/" | prepend: site.baseurl }}">Posts from Act I of this semester (February and March 2017)</a></p>
   <p>take a look at <a href="{{ "/archive-2016-fall/" | prepend: site.baseurl }}">take a look at last semester's posts (August 2016 to January 2017)</a></p>
 
-
 </div>
+

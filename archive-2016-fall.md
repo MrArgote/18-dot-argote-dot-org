@@ -16,8 +16,6 @@ title: Archive
   }
 </style>
 
-
-
 <div class="home">
 
   <h1 class="page-heading">Fall of 2016 Posts</h1>
