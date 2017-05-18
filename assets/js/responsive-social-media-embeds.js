@@ -1,15 +1,22 @@
 $(function() {
     // this code taken from CSS Tricks at
-    // https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
-    // with two modifications
-    // first, selectors for iframes refer to:
+    // css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+    // with some modifications
+    // first, selectors for iframes (and a div) referring to:
     // youtube, vimeo, facebook and spotify... and
     // second, replaces the selector that defines $fluidEl with .wrapper instead of .body or figure which
     // are both alternatively used in the original source
     // A third change I shied away from was adding 'img' to the list of selectors that
     // define the array of $allVideos --- partly because of the semantic dissonance of adding an animated .gif to a list called $allVideos
 
-    var $allVideos = $("iframe[src*='//embed.spotify.com'], iframe[src*='//www.facebook.com/plugins/'], iframe[src*='//player.vimeo.com'], iframe[src*='//www.youtube.com'], object, embed"),
+    var $allVideos = $(
+        "div[data-href*='//www.facebook.com/'], " +
+        "iframe[src*='//www.facebook.com/plugins/'], " +
+        "iframe[src*='//embed.spotify.com'], " +
+        "iframe[src*='//player.vimeo.com'], " +
+        "iframe[src*='//www.youtube.com'], " +
+        "object, embed"
+        ),
     $fluidEl = $(".wrapper");
         $allVideos.each(function() {
           $(this)
