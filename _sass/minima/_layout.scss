@@ -30,6 +30,10 @@
     float: right;
     line-height: 56px;
 
+    .nav-trigger {
+      display: none;
+    }
+
     .menu-icon {
         display: none;
     }
@@ -53,6 +57,15 @@
         border-radius: 5px;
         text-align: right;
 
+        label[for="nav-trigger"] {
+          display: block;
+          float: right;
+          width: 36px;
+          height: 36px;
+          z-index: 2;
+          cursor: pointer;
+        }
+
         .menu-icon {
             display: block;
             float: right;
@@ -72,12 +85,12 @@
             }
         }
 
-        .trigger {
+        input ~ .trigger {
             clear: both;
             display: none;
         }
 
-        &:hover .trigger {
+        input:checked ~ .trigger {
             display: block;
             padding-bottom: 5px;
         }
