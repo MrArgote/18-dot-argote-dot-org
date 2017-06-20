@@ -3,6 +3,8 @@ layout: default
 ---
 
 <style>
+  .post-list {
+    text-align: center;}
   .post-list > ul > li {
     display: inline-block;
     border: dashed 0.1em #555;
@@ -10,6 +12,8 @@ layout: default
     padding: 0.7em;
     max-width: 13em;
   }
+  .post-list > ul > li + li {
+    margin-bottom: 1em; }
   .post-list li.computer-lab {
     background-color: #FDE;
   }
@@ -17,7 +21,9 @@ layout: default
 
 <div class="home">
   <h1 class="page-heading">
-    Act III Posts (Mid-May to June of 2017, Spring Semester)
+    Act III Posts
+    <br/>
+    (Mid-May to June of 2017, Spring Semester)
   </h1>
 
   <ul class="post-list">
@@ -44,8 +50,9 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p>take a look at <a href="{{ "/archive-2017-Spring-Act-II/" | prepend: site.baseurl }}">Posts from Act II of this semester (April to mid-May 2017)</a></p>
-  <p>take a look at <a href="{{ "/archive-2017-Spring-Act-I/" | prepend: site.baseurl }}">Posts from Act I of this semester (February and March 2017)</a></p>
-  <p>take a look at <a href="{{ "/archive-2016-fall/" | prepend: site.baseurl }}">last semester's posts (August 2016 to January 2017)</a></p>
-
+  <ul>
+    <li>take a look at <a href="{{ "/archive-2017-Spring-Act-II/" | prepend: site.baseurl }}">Posts from Act II of this semester (April to mid-May 2017)</a></li>
+    <li>take a look at <a href="{{ "/archive-2017-Spring-Act-I/" | prepend: site.baseurl }}">Posts from Act I of this semester (February and March 2017)</a></li>
+    <li>take a look at <a href="{{ "/archive-2016-fall/" | prepend: site.baseurl }}">last semester's posts (August 2016 to January 2017)</a></li>
+  </ul>
 </div>
