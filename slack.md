@@ -5,8 +5,9 @@ header-nav: true
 ---
 
 <style>
+  .downloads-slack-container {
+    text-align: center; }
   .downloads-slack {
-    text-align: center;
     border-radius: 40px;
     border: 14px solid #000;
     background-color: #000;
@@ -27,19 +28,19 @@ header-nav: true
     display: inline-block; }
 </style>
 
-
-<div class="downloads-slack">
-  <a href="https://ciming2018.slack.com/">
-    https://ciming2018.slack.com
-  </a>
-  <a href="https://play.google.com/store/apps/details?id=com.Slack">
-    Android
-  </a>
-  <a href="https://itunes.apple.com/app/slack-app/id618783545?ls=1&mt=8">
-    iOS
-  </a>
+<div class="downloads-slack-container">
+  <div class="downloads-slack">
+    <a href="https://ciming2018.slack.com/">
+      https://ciming2018.slack.com
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=com.Slack">
+      Android
+    </a>
+    <a href="https://itunes.apple.com/app/slack-app/id618783545?ls=1&mt=8">
+      iOS
+    </a>
+  </div>
 </div>
-
 
 Have you joined Slack?
 
