@@ -59,11 +59,15 @@ header-nav: true
   </div>
 </div>
 
-Have you joined Slack?
-
-Have you saved your Slack password in LastPass?
-
-
-Have you installed Dropbox on your phone?
-
+- Install
+  - Install LastPass on your phone.
+  - Install Slack on your phone.
+  - Install Dropbox on your phone.
+- Access
+  - Create new account (or log in) at LastPass.
+  - Create new account (or log in) at Dropbox.
+  - Join Slack team.
+  - Save your Dropbox password to LastPass.
+  - Save your Slack password to LastPass.
+  - Make and share Dropbox directory.
 
