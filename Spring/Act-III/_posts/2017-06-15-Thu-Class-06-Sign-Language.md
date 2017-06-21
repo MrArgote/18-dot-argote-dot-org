@@ -1,5 +1,5 @@
 ---
-title: III-5 — Sign Language
+title: III-6 — Sign Language
 computer-lab: false
 ---
 
